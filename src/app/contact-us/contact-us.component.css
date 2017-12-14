@@ -1,0 +1,16 @@
+h3 {
+    background: url("../../assets/design-group.jpg") center no-repeat;
+    min-height: 250px;
+    background-size: cover;
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+}
+.mat-form-field{
+    width:100%;
+}

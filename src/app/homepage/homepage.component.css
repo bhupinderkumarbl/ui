@@ -1,0 +1,152 @@
+.banner {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    background: #0780db;
+    z-index: 9999;
+
+}
+
+.banner::after {
+    background: url("../../assets/biglines-right.png") right bottom no-repeat;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-size: 500px;
+    z-index: -9;
+}
+
+.banner::before {
+    background: url("../../assets/biglines-right.png") left bottom no-repeat;
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 500px;
+    background-size: 100%;
+    /* -webkit-transform: rotate(180deg); */
+    transform: rotate(180deg);
+    left: 0;
+    z-index: -9;
+
+}
+
+.contactButton {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 3px 1px 1px #00000026;
+    padding: 10px 40px !important;
+    font-size: 1.2em !important;
+    color: #25587f;
+}
+
+h1 {
+    font-size: 4em;
+    color: #fff;
+    font-weight: 800;
+}
+
+p {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 25px 0;
+    display: block;
+}
+
+.aboueSection {
+    min-height: 600px;
+    position: relative;
+    background: #e7f2f8;
+    z-index: 9999;
+
+}
+
+.aboueSection::after {
+    background: url("../../assets/cont.jpg") right no-repeat;
+    height: 600px;
+    background-size: 100%;
+    position: absolute;
+    width: 1100px;
+    content: '';
+    top: 0px;
+    right: 0;
+    z-index: -1;
+}
+
+.aboueSection::before {
+    background: url("../../assets/graphic-1.png") left no-repeat;
+    height: 600px;
+    background-size: 100%;
+    position: absolute;
+    width: 400px;
+    content: '';
+    top: 50px;
+    left: 200px;
+    z-index: 1;
+
+}
+
+.content_about {
+    float: right;
+    width: 430px;
+    position: absolute;
+    top: 207px;
+    right: 114px;
+}
+
+.content_about button {
+    background: #0780db;
+    color: #fff
+}
+
+.content_about p {
+    color: #193d58;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.service_section {
+    text-align: center;
+}
+
+.service_section h2 {
+    font-size: 3em;
+    margin: 50px 0;
+}
+
+.service_section p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
+
+}
+
+.service_section .col-lg-4 {
+    margin: 50px 0
+}
+
+.service_section svg {
+    width: 60px;
+    margin: 10px 0 0;
+}
+.home-contact{
+    background: url("../../assets/cloude-bg.jpg") center no-repeat;
+    min-height: 300px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+.home-contact p{ font-size: 1em}
+.home-contact button{ margin: 15px!important;}
+.home-contact h2{
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 700;
+}

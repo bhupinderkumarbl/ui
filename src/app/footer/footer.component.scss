@@ -1,0 +1,58 @@
+footer{
+    border-top:1px solid #ededed
+}
+footer .contactButton, footer .active {
+    background: none;
+    color: #197cdd;
+    box-shadow: none;
+    text-align: left;
+}
+a:active{
+    text-decoration: none;
+}
+
+footer .contactButton {
+    color: #000;
+}
+
+footer button {
+    min-width: 140px;
+    text-align: left;
+}
+
+footer .logo {
+    margin: 20px 0
+}
+
+footer img{ max-width: 100%; border-radius: 100%}
+
+footer {
+    padding: 50px 0;
+}
+footer .col-xs-12{
+    margin:0 0 10px 0
+}
+.social-icon a {
+    float: left;
+    border: 1px solid #000;
+    margin: 20px 5px 0 0;
+    border-radius: 100%;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 0 0;
+
+}
+
+.social-icon svg {
+    width: 13px;
+}
+
+.social-icon a:hover {
+    background: #000;
+}
+
+.social-icon a:hover path {
+    fill: #fff;
+}

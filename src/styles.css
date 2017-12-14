@@ -1,1 +1,113 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    font-size: 14px;
+}
+a:hover{
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+
+nav li{
+    float: left;
+
+}
+
+nav li button{
+    font-size: 16px!important;
+    padding: 8px 31px!important;
+    margin:0 5px!important;
+
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+.logo{
+    font-size:48px;
+    font-weight: 800;
+    text-decoration: none;
+    position: relative;
+    color: #bdd4f2;
+    margin: 20px 0 0;
+    display:inline-block;
+}
+.logo span{
+    color: #0780db;
+    font-size:48px;
+
+}
+.logo label{
+    font-size: 14px;
+    position: absolute;
+    right:0;
+    bottom: -15px;
+    color: #191919;
+    font-weight: 600;
+
+}
+
+.contentArea{
+    padding: 50px 0;
+    border-top: 1px solid #ededed;
+    margin: 20px 0 10px 0;
+}
+.menu{
+    display: none;
+}
+@media only screen and (max-width: 1170px) {
+
+    .aboueSection::before,.aboueSection::after{
+        display: none;
+    }
+    .content_about{
+        float: none!important;
+        width: auto!important;
+        position: static!important;
+        text-align: center;
+        padding: 100px 50px;
+    }
+    .aboueSection{
+        background: #ededed!important;
+        min-height: auto!important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    nav,.home-blog{
+        display: none;
+    }
+    .info{
+        text-align: center;
+    }
+    .social-icon a{
+        float: none!important;
+        display: inline-block;
+    }
+.menu{
+    display: block;
+    font-size: 41px!important;
+    cursor: pointer;
+    float: right;
+    margin: 28px 0 0;
+}
+.banner{
+    margin: 0;
+}
+h1{
+    font-size: 3em!important;
+}
+}
