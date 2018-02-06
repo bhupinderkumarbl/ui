@@ -1,18 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,Inject} from '@angular/core';
 import Typed from 'typed.js';
+import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
 
 @Component({
   selector: 'app-homepage',
-  templateUrl: './homepage.component.html',
+  templateUrl: './homepage.component.html', 
   styleUrls: ['homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-
-  constructor() {
-
-
-  }
+  
 
   ngOnInit() {
     let options = {
