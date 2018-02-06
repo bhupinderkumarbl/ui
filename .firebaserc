@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "uiexpertonline-55c1e"
+    "default": "uiexpertonline-55c1e",
+    "dev": "uiexpertonline"
   }
 }
