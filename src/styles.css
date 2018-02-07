@@ -111,3 +111,33 @@ h1{
     font-size: 3em!important;
 }
 }
+
+@media only screen and (max-width: 600px) {
+    .logo span,.logo{
+        font-size: 28px
+    }
+    .menu{
+        font-size: 32px!important
+    }
+    h1{
+        font-size: 2em!important
+    }
+    p {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+    .banner{
+        min-height: 270px!important;
+        margin-top: 10px;
+    }
+    .contactButton{
+        padding: 3px 25px !important
+    }
+    .content_about {
+        padding: 20px 0px;
+    }
+    .home-contact h2{
+        font-size: 20px!important
+    }
+}
