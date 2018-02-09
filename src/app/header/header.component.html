@@ -1,8 +1,40 @@
+
+<mat-drawer-container autosize>
+  <mat-drawer #drawer mode="side">
+    <ul>
+
+      <li>
+        <button mat-button routerLink="AboutComponent" routerLinkActive="active">About us</button>
+      </li>
+      <li>
+        <button mat-button routerLink="ServicesComponent" routerLinkActive="active">Services</button>
+      </li>
+      <li>
+        <button mat-button routerLink="PortfolioComponent" routerLinkActive="active">Portfolio</button>
+      </li>
+
+      <li>
+        <button mat-button routerLink="BlogComponent" routerLinkActive="active">Blog</button>
+      </li>
+      <li>
+        <button class="contactButton" md-raised-button color="primary" mat-button
+                routerLink="ContactUsComponent" routerLinkActive="active">Contact us
+        </button>
+      </li>
+    </ul>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <span class="menu" mat-button (click)="drawer.toggle()" style="font-size:30px;cursor:pointer">&#9776;</span>
+  </div>
+
+</mat-drawer-container>
 <header>
+
   <div class="container">
       <!--<a href="#" class="logo">Ui<span>expert</span><label>Online</label></a>-->
       <a routerLink="HomepageComponent" class="logo">Ui<span>expert</span><label>Online</label></a>
-      <span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
 
       <div id="mySidenav" class="sidenav pull-right">
       <nav>
@@ -30,4 +62,6 @@
       </nav>
   </div>
   </div>
+
+
 </header>

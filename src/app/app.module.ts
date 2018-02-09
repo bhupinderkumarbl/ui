@@ -8,6 +8,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 import {
     MatButtonModule, MatCheckboxModule, MatFormFieldModule, MatInputModule,
     MatSidenavModule
