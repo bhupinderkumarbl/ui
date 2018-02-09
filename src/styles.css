@@ -95,7 +95,10 @@ nav {
     margin: 10px 0;
   }
 
-
+.navigation li button {
+  min-width: 210px!important;
+  text-align: left!important;
+}
   nav,.home-blog{
         display: none;
     }
@@ -132,7 +135,7 @@ h1{
         font-size: 2em!important
     }
     p {
-        font-size: 1em;
+        font-size: 16px!important;
         font-weight: 300;
         line-height: 1.5;
     }
