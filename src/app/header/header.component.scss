@@ -8,3 +8,17 @@
 .logo:focus{
     text-decoration: none
 }
+.mat-drawer{
+  position: relative;
+}
+.menu{
+  position: fixed;
+  right: 15px;
+  top: 3px;
+}
+.mat-drawer.mat-drawer-side {
+  z-index: 999999;
+  position: fixed;
+  width: 77%;
+  background: #fffffff2;
+}

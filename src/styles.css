@@ -87,7 +87,16 @@ nav {
 }
 
 @media only screen and (max-width: 991px) {
-    nav,.home-blog{
+
+  .banner,.aboueSection{
+    z-index: 0!important;
+  }
+  .nvigation li{
+    margin: 10px 0;
+  }
+
+
+  nav,.home-blog{
         display: none;
     }
     .info{
