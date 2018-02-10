@@ -44,6 +44,7 @@ nav {
     color: #084a7d;
     margin: 20px 0 0;
     display:inline-block;
+  float: left;
 }
 .logo span{
     color: #0780db;
