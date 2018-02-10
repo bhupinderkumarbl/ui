@@ -28,38 +28,39 @@
       </nav>
     </div>
   </div>
-</header>
 
-<mat-drawer-container>
-  <mat-drawer #drawer mode="side">
-    <ul class="nvigation">
 
-      <li>
-        <button mat-button routerLink="AboutComponent" routerLinkActive="active">About us</button>
-      </li>
-      <li>
-        <button mat-button routerLink="ServicesComponent" routerLinkActive="active">Services</button>
-      </li>
-      <li>
-        <button mat-button routerLink="PortfolioComponent" routerLinkActive="active">Portfolio</button>
-      </li>
+  <mat-drawer-container>
+    <mat-drawer #drawer mode="side">
+      <ul class="nvigation">
 
-      <li>
-        <button mat-button routerLink="BlogComponent" routerLinkActive="active">Blog</button>
-      </li>
-      <li>
-        <button class="contactButton" md-raised-button color="primary" mat-button
-                routerLink="ContactUsComponent" routerLinkActive="active">Contact us
-        </button>
-      </li>
-    </ul>
-  </mat-drawer>
+        <li>
+          <button mat-button routerLink="AboutComponent" routerLinkActive="active">About us</button>
+        </li>
+        <li>
+          <button mat-button routerLink="ServicesComponent" routerLinkActive="active">Services</button>
+        </li>
+        <li>
+          <button mat-button routerLink="PortfolioComponent" routerLinkActive="active">Portfolio</button>
+        </li>
 
-  <div class="example-sidenav-content">
-    <div class="menu" mat-button (click)="drawer.toggle()"  onclick="myFunction(this)">
-      <span class="bar1"></span>
-      <span class="bar2"></span>
-      <span class="bar3"></span>
+        <li>
+          <button mat-button routerLink="BlogComponent" routerLinkActive="active">Blog</button>
+        </li>
+        <li>
+          <button class="contactButton" md-raised-button color="primary" mat-button
+                  routerLink="ContactUsComponent" routerLinkActive="active">Contact us
+          </button>
+        </li>
+      </ul>
+    </mat-drawer>
+
+    <div class="example-sidenav-content">
+      <div class="menu" mat-button (click)="drawer.toggle()"  onclick="myFunction(this)">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </div>
     </div>
-  </div>
-</mat-drawer-container>
+  </mat-drawer-container>
+</header>

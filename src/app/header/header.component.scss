@@ -14,7 +14,7 @@
 .menu{
   position: fixed;
   right: 15px;
-  top: -8px;
+  top: 8px;
 }
 .mat-drawer.mat-drawer-side {
   z-index: 999999;
@@ -23,10 +23,10 @@
   background: #fffffff2;
 }
 .bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 3px;
+  width: 31px;
+  height: 2px;
   background-color: #333;
-  margin: 10px 0;
+  margin: 6px 0;
   transition: 0.4s;
   display: block;
 }

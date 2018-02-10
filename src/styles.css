@@ -125,6 +125,9 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
+  .menu{
+    top:4px!important
+  }
     .logo span,.logo{
         font-size: 28px
     }
