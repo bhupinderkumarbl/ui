@@ -10,7 +10,6 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 })
 export class HomepageComponent implements OnInit {
 
-
   ngOnInit() {
     const options = {
       strings: ['Product ', 'Web ', 'UX/UI'],
